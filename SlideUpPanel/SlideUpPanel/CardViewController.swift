@@ -28,12 +28,12 @@ public class CardViewController: UIViewController {
     public var runningAnimations = [UIViewPropertyAnimator]()
     public var animationProgressWhenInterrupted:CGFloat = 0
     public init(frame:CGRect,vc:UIViewController) {
-        super.init(nibName: "CardViewController", bundle:  Bundle(identifier: "dominator.org.SlideUpPanel"))
+        super.init(nibName: "CardViewController", bundle:  Bundle(for:CardViewController.self))
         self.vc = vc
     }
     
     required init?(coder aDecoder: NSCoder) {
-        super.init(nibName: "CardViewController", bundle:  Bundle(identifier: "dominator.org.SlideUpPanel"))
+        super.init(nibName: "CardViewController", bundle:  Bundle(for:CardViewController.self))
     }
     public func setupCard() {
         visualEffectView = UIVisualEffectView()
