@@ -12,7 +12,7 @@ s.source_files = "SlideUpPanel/**/*.{swift}"
 s.resources = "SlideUpPanel/**/*.xib"
  s.resource_bundles = {
    'SlideUpPanel' => [
-       'Pod/**/*.xib'
+       'SlideUpPanel/**/*.xib'
    ]
  }
 
