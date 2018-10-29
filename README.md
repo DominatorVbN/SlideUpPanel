@@ -12,34 +12,8 @@ This is a designed Show a Slide Up Panel.
 4. Cocopods.
 
 ## Installing
-### CocoaPods
-
-[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
-
-```bash
-$ gem install cocoapods
-```
-
-> CocoaPods 1.1.0+ is required to build SlideUpPanel.
-
-To integrate SlideUpPanel into your Xcode project using CocoaPods, specify it in your `Podfile`:
-
-```ruby
-source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '10.0'
-use_frameworks!
-
-target '<Your Target Name>' do
-    pod 'SlideUpPanel'
-end
-```
-
-Then, run the following command:
-
-```bash
-$ pod install
-```
-
+Download SlideUpPanel.framwork file from repo and add it in your project in xcode
+with "copy if nedded" check mark on.
 ## Usage
 ``` swift
 import SlideUpPanel
