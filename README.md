@@ -58,6 +58,8 @@ var cardViewController : SlideUpPanel!
 cardViewController = SlideUpPanel(vc: self, cardHeight: nil)
 let vc = self.storyboard?.instantiateViewController(withIdentifier: "MyViewController") as! MyViewController
 cardViewController.setViewControllerAsContent(controller: vc)
+self.addChild(cardViewController)
+self.view.addSubview(cardViewController.view)
 ```
 Enable/Diable CornerRadiusAnimation
 ``` swift
