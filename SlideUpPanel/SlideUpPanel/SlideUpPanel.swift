@@ -7,30 +7,29 @@
 //
 
 import UIKit
-@IBDesignable
-class SlideUpPanel: UIViewController {
+public class SlideUpPanel: UIViewController {
     enum CardState {
         case expanded
         case collapsed
     }
-    var initialCornerRadius:Float = 0
-    var updatedCornerRadius:Float = 12
-    var isCornerRadiusAnimatorOn = true
-    var handleArea = UIView()
-    var handleAreaHeight : CGFloat = 65
-    var handleAreaColor : UIColor = UIColor.groupTableViewBackground
-    var vc : UIViewController!
-    var contentArea = UIView()
-    var visualEffectView:UIVisualEffectView!
-    var cardHeight:CGFloat = 600
-    var runningAnimations = [UIViewPropertyAnimator]()
-    var cardVisible = false
-    var animationProgressWhenInterrupted:CGFloat = 0
+    public var initialCornerRadius:Float = 0
+    public var updatedCornerRadius:Float = 12
+    public var isCornerRadiusAnimatorOn = true
+    public var handleArea = UIView()
+    public var handleAreaHeight : CGFloat = 65
+    public var handleAreaColor : UIColor = UIColor.groupTableViewBackground
+    public var vc : UIViewController!
+    public var contentArea = UIView()
+    public var visualEffectView:UIVisualEffectView!
+    public var cardHeight:CGFloat = 600
+    public var runningAnimations = [UIViewPropertyAnimator]()
+    public var cardVisible = false
+    public var animationProgressWhenInterrupted:CGFloat = 0
     var nextState:CardState {
         return cardVisible ? .collapsed : .expanded
     }
     
-    init(vc : UIViewController, cardHeight : CGFloat?) {
+    public init(vc : UIViewController, cardHeight : CGFloat?) {
         super.init(nibName: nil, bundle: nil)
         self.vc = vc
         self.cardHeight = cardHeight != nil ? cardHeight! : 600
@@ -39,18 +38,18 @@ class SlideUpPanel: UIViewController {
     required init?(coder aDecoder: NSCoder) {
         super.init(nibName: nil, bundle: nil)
     }
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         setUi()
         self.view.layer.cornerRadius = CGFloat(initialCornerRadius)
         print(initialCornerRadius)
     }
-    func setUi(){
+    public func setUi(){
         setHandleView()
         setContentArea()
         setupCard()
     }
-    func setHandleView(){
+    public func setHandleView(){
         self.view.addSubview(handleArea)
         handleArea.frame = CGRect(x: 0, y: 0, width: self.view.bounds.width, height: handleAreaHeight)
         handleArea.backgroundColor = handleAreaColor
@@ -61,12 +60,12 @@ class SlideUpPanel: UIViewController {
         bar.layer.cornerRadius = bar.frame.height / 2
         bar.layer.masksToBounds = true
     }
-    func setContentArea(){
+    public func setContentArea(){
         self.view.addSubview(contentArea)
         contentArea.frame = CGRect(x: 0, y: self.handleArea.frame.maxY, width: self.view.frame.width, height: self.view.frame.height - handleAreaHeight)
         contentArea.backgroundColor = .white
     }
-    func setupCard()  {
+    public func setupCard()  {
         visualEffectView = UIVisualEffectView()
         visualEffectView.frame = vc.view.frame
         vc.view.addSubview(visualEffectView)
@@ -80,7 +79,7 @@ class SlideUpPanel: UIViewController {
         self.handleArea.addGestureRecognizer(panGestureRecognizer)
     }
     @objc
-    func handleCardTap(recognzier:UITapGestureRecognizer) {
+    public func handleCardTap(recognzier:UITapGestureRecognizer) {
         switch recognzier.state {
         case .ended:
             animateTransitionIfNeeded(state: nextState, duration: 0.9)
@@ -90,7 +89,7 @@ class SlideUpPanel: UIViewController {
     }
     
     @objc
-    func handleCardPan (recognizer:UIPanGestureRecognizer) {
+    public func handleCardPan (recognizer:UIPanGestureRecognizer) {
         switch recognizer.state {
         case .began:
             startInteractiveTransition(state: nextState, duration: 0.9)
@@ -165,18 +164,18 @@ class SlideUpPanel: UIViewController {
         }
     }
     
-    func updateInteractiveTransition(fractionCompleted:CGFloat) {
+    public func updateInteractiveTransition(fractionCompleted:CGFloat) {
         for animator in runningAnimations {
             animator.fractionComplete = fractionCompleted + animationProgressWhenInterrupted
         }
     }
     
-    func continueInteractiveTransition (){
+    public func continueInteractiveTransition (){
         for animator in runningAnimations {
             animator.continueAnimation(withTimingParameters: nil, durationFactor: 0)
         }
     }
-    func setViewControllerAsContent(controller:UIViewController)  {
+    public func setViewControllerAsContent(controller:UIViewController)  {
         self.addChild(controller)
         contentArea.removeFromSuperview()
         self.view.addSubview(controller.view)
