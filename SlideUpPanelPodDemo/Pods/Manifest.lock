@@ -1,0 +1,16 @@
+PODS:
+  - SlideUpPanel (1.0.5)
+
+DEPENDENCIES:
+  - SlideUpPanel
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SlideUpPanel
+
+SPEC CHECKSUMS:
+  SlideUpPanel: 1d904dc7bc28c5181a098d5431933f34c5a4a017
+
+PODFILE CHECKSUM: 0789cf0b8dd7bfb6558fe27acb974799b523e7cf
+
+COCOAPODS: 1.5.3

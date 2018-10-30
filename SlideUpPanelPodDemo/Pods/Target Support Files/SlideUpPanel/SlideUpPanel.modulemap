@@ -1,0 +1,6 @@
+framework module SlideUpPanel {
+  umbrella header "SlideUpPanel-umbrella.h"
+
+  export *
+  module * { export * }
+}
