@@ -23,7 +23,7 @@ public class SlideUpPanel: UIViewController {
     public var handleAreaColor: UIColor = UIColor.groupTableViewBackground
     public var vc: UIViewController!
     public var contentArea = UIView()
-    public var visualEffectView: UIVisualEffectView!
+    
     public var cardHeight: CGFloat = 600
     public var cardCollapsedHeight: CGFloat = 0
     public var runningAnimations = [UIViewPropertyAnimator]()
@@ -85,9 +85,6 @@ public class SlideUpPanel: UIViewController {
     }
     
     public func setupCard() {
-        visualEffectView = UIVisualEffectView()
-        visualEffectView.frame = vc.view.frame
-        vc.view.addSubview(visualEffectView)
         self.view.frame = CGRect(x: 0,
                                  y: vc.view.frame.height - handleAreaHeight - cardCollapsedHeight,
                                  width: vc.view.bounds.width,
@@ -165,17 +162,7 @@ public class SlideUpPanel: UIViewController {
                 runningAnimations.append(cornerRadiusAnimator)
             }
             
-            let blurAnimator = UIViewPropertyAnimator(duration: duration, dampingRatio: 1) {
-                switch state {
-                case .expanded:
-                    self.visualEffectView.effect = UIBlurEffect(style: .dark)
-                case .collapsed:
-                    self.visualEffectView.effect = nil
-                }
-            }
-            
-            blurAnimator.startAnimation()
-            runningAnimations.append(blurAnimator)
+
             
         }
     }
