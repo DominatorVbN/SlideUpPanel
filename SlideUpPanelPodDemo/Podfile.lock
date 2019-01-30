@@ -2,15 +2,15 @@ PODS:
   - SlideUpPanel (1.0.5)
 
 DEPENDENCIES:
-  - SlideUpPanel
+  - SlideUpPanel (from `../SlideUpPanel/`)
 
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - SlideUpPanel
+EXTERNAL SOURCES:
+  SlideUpPanel:
+    :path: "../SlideUpPanel/"
 
 SPEC CHECKSUMS:
-  SlideUpPanel: 1d904dc7bc28c5181a098d5431933f34c5a4a017
+  SlideUpPanel: 301c2daed6a4b60ac8a85ca74270e3bbc248e681
 
-PODFILE CHECKSUM: 0789cf0b8dd7bfb6558fe27acb974799b523e7cf
+PODFILE CHECKSUM: fc8e39c31bfa88b43119dd48875d8be9d6971e66
 
 COCOAPODS: 1.5.3

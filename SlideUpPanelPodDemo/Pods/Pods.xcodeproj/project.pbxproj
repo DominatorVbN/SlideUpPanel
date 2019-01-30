@@ -3,17 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7165C53C390A1E190CA4A31CDE32836F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		A46F8A6FA7E080934DA7CDBC98C71B02 /* Pods-SlideUpPanelPodTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1FE979579BF472ACA4AF6C09D25EDF2 /* Pods-SlideUpPanelPodTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2B54EEEDB52768D2D0682FA62AC71B9 /* SlideUpPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB74EBE371B67DB69EDD3FCB2A04BE44 /* SlideUpPanel.swift */; };
-		C419FCA69FC588EE79E3A349C23AEE3D /* SlideUpPanel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC46EA555CFE72E32F4FD62A2E884EF /* SlideUpPanel-dummy.m */; };
-		D1E719B9E463BF2FC13ACB4BED4F9639 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		ADCCF2663E95F9DE3A8AB28B40475911 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		C419FCA69FC588EE79E3A349C23AEE3D /* SlideUpPanel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB6ED20CB74BF99DF08D93AA3942D43 /* SlideUpPanel-dummy.m */; };
 		D89F7C693F44B6C9060C32515538EBB4 /* Pods-SlideUpPanelPodTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 009C89ADCCE13BF01767750DC99C59C4 /* Pods-SlideUpPanelPodTest-dummy.m */; };
-		E26D5C8D251240453443A223631B1F49 /* SlideUpPanel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD6C226BB455BD2B89BE3E0C6482CE0 /* SlideUpPanel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE9046EC41F33F7DF560C48C50319ED8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		E26D5C8D251240453443A223631B1F49 /* SlideUpPanel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3CC5887F7B79007AA0D272C293A8132 /* SlideUpPanel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2C59775526DDDDF6CE0972C10C3A140 /* SlideUpPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C2C87E087967D35C91A9054F109A6 /* SlideUpPanel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,26 +28,27 @@
 
 /* Begin PBXFileReference section */
 		009C89ADCCE13BF01767750DC99C59C4 /* Pods-SlideUpPanelPodTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SlideUpPanelPodTest-dummy.m"; sourceTree = "<group>"; };
-		011B3F64AE0C519CFD2CAA7E99B3ED40 /* Pods_SlideUpPanelPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SlideUpPanelPodTest.framework; path = "Pods-SlideUpPanelPodTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		011B3F64AE0C519CFD2CAA7E99B3ED40 /* Pods_SlideUpPanelPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlideUpPanelPodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		039E4B6576ADEDA78B038C90B63DDDF9 /* Pods-SlideUpPanelPodTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SlideUpPanelPodTest.modulemap"; sourceTree = "<group>"; };
 		15CB9FFA59BF7AD392C7EA0E0B8AB1E3 /* Pods-SlideUpPanelPodTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SlideUpPanelPodTest-acknowledgements.plist"; sourceTree = "<group>"; };
-		2BD6C226BB455BD2B89BE3E0C6482CE0 /* SlideUpPanel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideUpPanel-umbrella.h"; sourceTree = "<group>"; };
-		49AF8C4988B06CF059C3676A2536BBCF /* SlideUpPanel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SlideUpPanel.modulemap; sourceTree = "<group>"; };
+		1F99AAC3BB481348C1B5D5686D521B73 /* SlideUpPanel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SlideUpPanel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2DE92456DA39DF4972CA6C21448530E1 /* SlideUpPanel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlideUpPanel.xcconfig; sourceTree = "<group>"; };
+		2F8C2C87E087967D35C91A9054F109A6 /* SlideUpPanel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideUpPanel.swift; path = SlideUpPanel/SlideUpPanel.swift; sourceTree = "<group>"; };
+		4BB6CE718263F48B418CFB5BD973E019 /* SlideUpPanel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideUpPanel-prefix.pch"; sourceTree = "<group>"; };
+		4C491FE91621F4F8D20C8626105728D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5493DF7C6641118175D51935ABD59022 /* Pods-SlideUpPanelPodTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlideUpPanelPodTest.release.xcconfig"; sourceTree = "<group>"; };
-		555C7D854DE651DA34C73591EE6D8FF8 /* SlideUpPanel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideUpPanel-prefix.pch"; sourceTree = "<group>"; };
-		55BA8CBA47406BB9366C894FB8581957 /* SlideUpPanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SlideUpPanel.framework; path = SlideUpPanel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		55BA8CBA47406BB9366C894FB8581957 /* SlideUpPanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SlideUpPanel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		631538BB516452C87BF4C76210E65DB2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71116B015FF43CB0F3DFC8C60C53689E /* Pods-SlideUpPanelPodTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SlideUpPanelPodTest-acknowledgements.markdown"; sourceTree = "<group>"; };
 		78D04E33A6A1C2E22079C3C3684422A5 /* Pods-SlideUpPanelPodTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlideUpPanelPodTest.debug.xcconfig"; sourceTree = "<group>"; };
 		861D753A8D2029C154A4BB98F3B43CCC /* Pods-SlideUpPanelPodTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SlideUpPanelPodTest-resources.sh"; sourceTree = "<group>"; };
-		8FBEDE48A1A4184D181D4D5861CD0336 /* SlideUpPanel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlideUpPanel.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6A9B79F4CC4ABE9664FC2FC9CE82E98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AB6ED20CB74BF99DF08D93AA3942D43 /* SlideUpPanel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SlideUpPanel-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C3E1D85D09AED7A085A2708203A2E671 /* SlideUpPanel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SlideUpPanel.modulemap; sourceTree = "<group>"; };
 		CBC226E807F20C4300C475A4E25BCC16 /* Pods-SlideUpPanelPodTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SlideUpPanelPodTest-frameworks.sh"; sourceTree = "<group>"; };
-		DB74EBE371B67DB69EDD3FCB2A04BE44 /* SlideUpPanel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideUpPanel.swift; path = SlideUpPanel/SlideUpPanel/SlideUpPanel.swift; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F1FE979579BF472ACA4AF6C09D25EDF2 /* Pods-SlideUpPanelPodTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SlideUpPanelPodTest-umbrella.h"; sourceTree = "<group>"; };
-		FBC46EA555CFE72E32F4FD62A2E884EF /* SlideUpPanel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SlideUpPanel-dummy.m"; sourceTree = "<group>"; };
+		F3CC5887F7B79007AA0D272C293A8132 /* SlideUpPanel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideUpPanel-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1E719B9E463BF2FC13ACB4BED4F9639 /* Foundation.framework in Frameworks */,
+				ADCCF2663E95F9DE3A8AB28B40475911 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,62 +64,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE9046EC41F33F7DF560C48C50319ED8 /* Foundation.framework in Frameworks */,
+				7165C53C390A1E190CA4A31CDE32836F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		12B8020D987F4C8A2A5F620A70BFB64A /* Support Files */ = {
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				A6A9B79F4CC4ABE9664FC2FC9CE82E98 /* Info.plist */,
-				49AF8C4988B06CF059C3676A2536BBCF /* SlideUpPanel.modulemap */,
-				8FBEDE48A1A4184D181D4D5861CD0336 /* SlideUpPanel.xcconfig */,
-				FBC46EA555CFE72E32F4FD62A2E884EF /* SlideUpPanel-dummy.m */,
-				555C7D854DE651DA34C73591EE6D8FF8 /* SlideUpPanel-prefix.pch */,
-				2BD6C226BB455BD2B89BE3E0C6482CE0 /* SlideUpPanel-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SlideUpPanel";
-			sourceTree = "<group>";
-		};
-		5C8A6610745A70F22FB86AECC3ECE73B /* SlideUpPanel */ = {
-			isa = PBXGroup;
-			children = (
-				DB74EBE371B67DB69EDD3FCB2A04BE44 /* SlideUpPanel.swift */,
-				12B8020D987F4C8A2A5F620A70BFB64A /* Support Files */,
-			);
-			name = SlideUpPanel;
-			path = SlideUpPanel;
-			sourceTree = "<group>";
-		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		48E47F752AC945009462035CE7F8E14E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1F99AAC3BB481348C1B5D5686D521B73 /* SlideUpPanel.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C9F898B32670970600F0F02B072A5661 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				9FA0C2FF61AEC722E72FD1F23168B0A5 /* Pods */,
 				AC950E2D81BD50A944920BDBC11EB893 /* Products */,
 				F32DC5D363490132A1C122014753C061 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		9FA0C2FF61AEC722E72FD1F23168B0A5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5C8A6610745A70F22FB86AECC3ECE73B /* SlideUpPanel */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		AC950E2D81BD50A944920BDBC11EB893 /* Products */ = {
@@ -130,12 +107,45 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		ADB2C8B91B833E6A34BEF5798EB909DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C491FE91621F4F8D20C8626105728D7 /* Info.plist */,
+				C3E1D85D09AED7A085A2708203A2E671 /* SlideUpPanel.modulemap */,
+				2DE92456DA39DF4972CA6C21448530E1 /* SlideUpPanel.xcconfig */,
+				8AB6ED20CB74BF99DF08D93AA3942D43 /* SlideUpPanel-dummy.m */,
+				4BB6CE718263F48B418CFB5BD973E019 /* SlideUpPanel-prefix.pch */,
+				F3CC5887F7B79007AA0D272C293A8132 /* SlideUpPanel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../SlideUpPanelPodDemo/Pods/Target Support Files/SlideUpPanel";
+			sourceTree = "<group>";
+		};
+		B1F3E202BB527055E3CC4B20BF93B569 /* SlideUpPanel */ = {
+			isa = PBXGroup;
+			children = (
+				2F8C2C87E087967D35C91A9054F109A6 /* SlideUpPanel.swift */,
+				48E47F752AC945009462035CE7F8E14E /* Pod */,
+				ADB2C8B91B833E6A34BEF5798EB909DC /* Support Files */,
+			);
+			name = SlideUpPanel;
+			path = ../../SlideUpPanel;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+				44D5347904CF754D6785B84253F2574A /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9F898B32670970600F0F02B072A5661 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1F3E202BB527055E3CC4B20BF93B569 /* SlideUpPanel */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		E692E50A99C842F6E6FC10D3E9D6FDF7 /* Pods-SlideUpPanelPodTest */ = {
@@ -273,7 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C419FCA69FC588EE79E3A349C23AEE3D /* SlideUpPanel-dummy.m in Sources */,
-				C2B54EEEDB52768D2D0682FA62AC71B9 /* SlideUpPanel.swift in Sources */,
+				E2C59775526DDDDF6CE0972C10C3A140 /* SlideUpPanel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,183 +307,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		024CDAE6BE34931E036E158A2DCF9805 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FBEDE48A1A4184D181D4D5861CD0336 /* SlideUpPanel.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SlideUpPanel/SlideUpPanel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SlideUpPanel/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SlideUpPanel/SlideUpPanel.modulemap";
-				PRODUCT_MODULE_NAME = SlideUpPanel;
-				PRODUCT_NAME = SlideUpPanel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		08B5C7509E6F55FFA243699F9754E54A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FBEDE48A1A4184D181D4D5861CD0336 /* SlideUpPanel.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SlideUpPanel/SlideUpPanel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SlideUpPanel/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SlideUpPanel/SlideUpPanel.modulemap";
-				PRODUCT_MODULE_NAME = SlideUpPanel;
-				PRODUCT_NAME = SlideUpPanel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		40B45BB3CF3EE4476259302A7FAAD78F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		51CEC0E0E2C6CBA2E5C31A918312715E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5493DF7C6641118175D51935ABD59022 /* Pods-SlideUpPanelPodTest.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SlideUpPanelPodTest/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SlideUpPanelPodTest/Pods-SlideUpPanelPodTest.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		85ED3013A635C27F8B7FAF51362B108C /* Debug */ = {
+		98E98810EEEB96C99CB95CB91F4ADE0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -526,18 +360,146 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		ADA9B4129202A2272DFE9817C245C329 /* Debug */ = {
+		A191F7A13F055DB7290C82930BBE95C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE92456DA39DF4972CA6C21448530E1 /* SlideUpPanel.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SlideUpPanel/SlideUpPanel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlideUpPanel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlideUpPanel/SlideUpPanel.modulemap";
+				PRODUCT_MODULE_NAME = SlideUpPanel;
+				PRODUCT_NAME = SlideUpPanel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1584BF68A71B303246D6C7463848D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE92456DA39DF4972CA6C21448530E1 /* SlideUpPanel.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SlideUpPanel/SlideUpPanel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlideUpPanel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlideUpPanel/SlideUpPanel.modulemap";
+				PRODUCT_MODULE_NAME = SlideUpPanel;
+				PRODUCT_NAME = SlideUpPanel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B97A7F6ACE1216BB5A2307CA83FC93C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C91731901547224D1A4F85EFC182F32D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 78D04E33A6A1C2E22079C3C3684422A5 /* Pods-SlideUpPanelPodTest.debug.xcconfig */;
 			buildSettings = {
@@ -555,11 +517,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-SlideUpPanelPodTest/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SlideUpPanelPodTest/Pods-SlideUpPanelPodTest.modulemap";
 				OTHER_LDFLAGS = "";
@@ -569,13 +527,46 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		F0601B7AD57680F2B8B8FA7A72EEEFC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5493DF7C6641118175D51935ABD59022 /* Pods-SlideUpPanelPodTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SlideUpPanelPodTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SlideUpPanelPodTest/Pods-SlideUpPanelPodTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -583,8 +574,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85ED3013A635C27F8B7FAF51362B108C /* Debug */,
-				40B45BB3CF3EE4476259302A7FAAD78F /* Release */,
+				98E98810EEEB96C99CB95CB91F4ADE0A /* Debug */,
+				B97A7F6ACE1216BB5A2307CA83FC93C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -592,8 +583,8 @@
 		91B990F0EFA5E7B1CD6638C116B9B501 /* Build configuration list for PBXNativeTarget "Pods-SlideUpPanelPodTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ADA9B4129202A2272DFE9817C245C329 /* Debug */,
-				51CEC0E0E2C6CBA2E5C31A918312715E /* Release */,
+				C91731901547224D1A4F85EFC182F32D /* Debug */,
+				F0601B7AD57680F2B8B8FA7A72EEEFC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -601,8 +592,8 @@
 		9ED12EFE01246F5C7039C9293DDFE2EF /* Build configuration list for PBXNativeTarget "SlideUpPanel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				08B5C7509E6F55FFA243699F9754E54A /* Debug */,
-				024CDAE6BE34931E036E158A2DCF9805 /* Release */,
+				B1584BF68A71B303246D6C7463848D45 /* Debug */,
+				A191F7A13F055DB7290C82930BBE95C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
