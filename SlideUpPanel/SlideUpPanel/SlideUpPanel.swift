@@ -58,19 +58,28 @@ public class SlideUpPanel: UIViewController {
     
     public func setHandleView() {
         self.view.addSubview(handleArea)
-        handleArea.frame = CGRect(x: 0, y: 0, width: self.view.bounds.width, height: handleAreaHeight)
+        handleArea.frame = CGRect(x: 0,
+                                  y: 0,
+                                  width: self.view.bounds.width,
+                                  height: handleAreaHeight)
         handleArea.backgroundColor = handleAreaColor
         let bar = UIView()
         handleArea.addSubview(bar)
         bar.backgroundColor = .lightGray
-        bar.frame = CGRect(x: self.handleArea.frame.midX - 40, y: handleAreaHeight / 2, width: 80, height: 10)
+        bar.frame = CGRect(x: self.handleArea.frame.midX - 40,
+                           y: handleAreaHeight / 2,
+                           width: 80,
+                           height: 10)
         bar.layer.cornerRadius = bar.frame.height / 2
         bar.layer.masksToBounds = true
     }
     
     public func setContentArea() {
         self.view.addSubview(contentArea)
-        contentArea.frame = CGRect(x: 0, y: self.handleArea.frame.maxY, width: self.view.frame.width, height: self.view.frame.height - handleAreaHeight)
+        contentArea.frame = CGRect(x: 0,
+                                   y: self.handleArea.frame.maxY,
+                                   width: self.view.frame.width,
+                                   height: self.view.frame.height - handleAreaHeight)
         contentArea.backgroundColor = .white
     }
     
@@ -78,7 +87,10 @@ public class SlideUpPanel: UIViewController {
         visualEffectView = UIVisualEffectView()
         visualEffectView.frame = vc.view.frame
         vc.view.addSubview(visualEffectView)
-        self.view.frame = CGRect(x: 0, y: vc.view.frame.height - handleAreaHeight, width: vc.view.bounds.width, height: cardHeight)
+        self.view.frame = CGRect(x: 0,
+                                 y: vc.view.frame.height - handleAreaHeight,
+                                 width: vc.view.bounds.width,
+                                 height: cardHeight)
         self.view.clipsToBounds = true
         
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(SlideUpPanel.handleCardTap(recognzier:)))
@@ -137,7 +149,8 @@ public class SlideUpPanel: UIViewController {
             
             
             if (isCornerRadiusAnimatorOn) {
-                let cornerRadiusAnimator = UIViewPropertyAnimator(duration: duration, curve: .linear) {
+                let cornerRadiusAnimator = UIViewPropertyAnimator(duration: duration,
+                                                                  curve: .linear) {
                     switch state {
                     case .expanded:
                         self.view.layer.cornerRadius = 12
@@ -191,6 +204,9 @@ public class SlideUpPanel: UIViewController {
         self.addChild(controller)
         contentArea.removeFromSuperview()
         self.view.addSubview(controller.view)
-        controller.view.frame = CGRect(x: 0, y: self.handleArea.frame.maxY, width: self.view.frame.width, height: self.view.frame.height - handleAreaHeight)
+        controller.view.frame = CGRect(x: 0,
+                                       y: self.handleArea.frame.maxY,
+                                       width: self.view.frame.width,
+                                       height: self.view.frame.height - handleAreaHeight)
     }
 }
