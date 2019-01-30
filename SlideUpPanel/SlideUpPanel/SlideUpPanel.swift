@@ -25,6 +25,7 @@ public class SlideUpPanel: UIViewController {
     public var contentArea = UIView()
     public var visualEffectView: UIVisualEffectView!
     public var cardHeight: CGFloat = 600
+    public var cardCollapsedHeight: CGFloat = 0
     public var runningAnimations = [UIViewPropertyAnimator]()
     public var cardVisible = false
     public var animationProgressWhenInterrupted: CGFloat = 0
@@ -88,7 +89,7 @@ public class SlideUpPanel: UIViewController {
         visualEffectView.frame = vc.view.frame
         vc.view.addSubview(visualEffectView)
         self.view.frame = CGRect(x: 0,
-                                 y: vc.view.frame.height - handleAreaHeight,
+                                 y: vc.view.frame.height - handleAreaHeight - cardCollapsedHeight,
                                  width: vc.view.bounds.width,
                                  height: cardHeight)
         self.view.clipsToBounds = true
@@ -135,7 +136,8 @@ public class SlideUpPanel: UIViewController {
                 case .expanded:
                     self.view.frame.origin.y = self.vc.view.frame.height - self.cardHeight
                 case .collapsed:
-                    self.view.frame.origin.y = self.vc.view.frame.height - self.handleAreaHeight
+                    self.view.frame.origin.y =
+                        self.vc.view.frame.height - self.handleAreaHeight - self.cardCollapsedHeight
                 }
             }
             
