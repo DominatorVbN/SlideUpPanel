@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -28,22 +28,22 @@
 
 /* Begin PBXFileReference section */
 		009C89ADCCE13BF01767750DC99C59C4 /* Pods-SlideUpPanelPodTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SlideUpPanelPodTest-dummy.m"; sourceTree = "<group>"; };
-		011B3F64AE0C519CFD2CAA7E99B3ED40 /* Pods_SlideUpPanelPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SlideUpPanelPodTest.framework; path = "Pods-SlideUpPanelPodTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		011B3F64AE0C519CFD2CAA7E99B3ED40 /* Pods_SlideUpPanelPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlideUpPanelPodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		039E4B6576ADEDA78B038C90B63DDDF9 /* Pods-SlideUpPanelPodTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SlideUpPanelPodTest.modulemap"; sourceTree = "<group>"; };
 		15CB9FFA59BF7AD392C7EA0E0B8AB1E3 /* Pods-SlideUpPanelPodTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SlideUpPanelPodTest-acknowledgements.plist"; sourceTree = "<group>"; };
-		1F99AAC3BB481348C1B5D5686D521B73 /* SlideUpPanel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SlideUpPanel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1F99AAC3BB481348C1B5D5686D521B73 /* SlideUpPanel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SlideUpPanel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2DE92456DA39DF4972CA6C21448530E1 /* SlideUpPanel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlideUpPanel.xcconfig; sourceTree = "<group>"; };
 		2F8C2C87E087967D35C91A9054F109A6 /* SlideUpPanel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideUpPanel.swift; path = SlideUpPanel/SlideUpPanel.swift; sourceTree = "<group>"; };
 		4BB6CE718263F48B418CFB5BD973E019 /* SlideUpPanel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideUpPanel-prefix.pch"; sourceTree = "<group>"; };
 		4C491FE91621F4F8D20C8626105728D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5493DF7C6641118175D51935ABD59022 /* Pods-SlideUpPanelPodTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlideUpPanelPodTest.release.xcconfig"; sourceTree = "<group>"; };
-		55BA8CBA47406BB9366C894FB8581957 /* SlideUpPanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SlideUpPanel.framework; path = SlideUpPanel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55BA8CBA47406BB9366C894FB8581957 /* SlideUpPanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SlideUpPanel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		631538BB516452C87BF4C76210E65DB2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71116B015FF43CB0F3DFC8C60C53689E /* Pods-SlideUpPanelPodTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SlideUpPanelPodTest-acknowledgements.markdown"; sourceTree = "<group>"; };
 		78D04E33A6A1C2E22079C3C3684422A5 /* Pods-SlideUpPanelPodTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlideUpPanelPodTest.debug.xcconfig"; sourceTree = "<group>"; };
 		861D753A8D2029C154A4BB98F3B43CCC /* Pods-SlideUpPanelPodTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SlideUpPanelPodTest-resources.sh"; sourceTree = "<group>"; };
 		8AB6ED20CB74BF99DF08D93AA3942D43 /* SlideUpPanel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SlideUpPanel-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C3E1D85D09AED7A085A2708203A2E671 /* SlideUpPanel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SlideUpPanel.modulemap; sourceTree = "<group>"; };
 		CBC226E807F20C4300C475A4E25BCC16 /* Pods-SlideUpPanelPodTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SlideUpPanelPodTest-frameworks.sh"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -360,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -391,11 +391,7 @@
 				INFOPLIST_FILE = "Target Support Files/SlideUpPanel/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SlideUpPanel/SlideUpPanel.modulemap";
 				PRODUCT_MODULE_NAME = SlideUpPanel;
 				PRODUCT_NAME = SlideUpPanel;
@@ -428,11 +424,7 @@
 				INFOPLIST_FILE = "Target Support Files/SlideUpPanel/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SlideUpPanel/SlideUpPanel.modulemap";
 				PRODUCT_MODULE_NAME = SlideUpPanel;
 				PRODUCT_NAME = SlideUpPanel;
@@ -496,13 +488,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -526,11 +517,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-SlideUpPanelPodTest/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SlideUpPanelPodTest/Pods-SlideUpPanelPodTest.modulemap";
 				OTHER_LDFLAGS = "";
@@ -564,11 +551,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-SlideUpPanelPodTest/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SlideUpPanelPodTest/Pods-SlideUpPanelPodTest.modulemap";
 				OTHER_LDFLAGS = "";
