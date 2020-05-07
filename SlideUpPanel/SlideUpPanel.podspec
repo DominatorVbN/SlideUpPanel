@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.screenshots  = "https://raw.githubusercontent.com/DominatorVbN/SlideUpPanel/master/SlideUpPanel.gif"
   s.license      = "MIT"
   s.author             = { "DominatorVbN" => "as9039851921@gmail.com" }
-  s.platform     = :ios, "12.0"
+  s.platform     = :ios, "10.3"
   s.source       = { :git => "https://github.com/DominatorVbN/SlideUpPanel.git", :tag => "1.0.5" }
   s.source_files  = "SlideUpPanel/**/*.{swift}"
   s.swift_version = "4.2"
